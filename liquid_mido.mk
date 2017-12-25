@@ -5,7 +5,7 @@ $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 PRODUCT_NAME := liquid_mido
 BOARD_VENDOR := Xiaomi
