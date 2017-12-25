@@ -1,3 +1,4 @@
+# @mamutal91
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
 # Inherit some common LineageOS stuff.
