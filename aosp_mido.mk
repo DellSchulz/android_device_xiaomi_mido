@@ -5,6 +5,10 @@ $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Provide meaningful APN configuration
+PRODUCT_COPY_FILES := device/xiaomi/mido/configs/apns-full-conf.xml:system/etc/apns-conf.xml
+
 $(call inherit-product, vendor/aosp/config/common.mk)
 
 PRODUCT_NAME := aosp_mido
