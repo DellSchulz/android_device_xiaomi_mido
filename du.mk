@@ -6,9 +6,9 @@ TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-PRODUCT_NAME := validus_mido
+PRODUCT_NAME := du_mido
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 
